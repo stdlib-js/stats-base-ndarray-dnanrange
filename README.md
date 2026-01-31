@@ -50,6 +50,11 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
+import dnanrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrange@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-ndarray-dnanrange/tags). For example,
+
+```javascript
 import dnanrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrange@v0.1.0-deno/mod.js';
 ```
 
@@ -97,7 +102,7 @@ import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@d
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@deno/mod.js';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@deno/mod.js';
-import dnanrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrange@v0.1.0-deno/mod.js';
+import dnanrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrange@deno/mod.js';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
