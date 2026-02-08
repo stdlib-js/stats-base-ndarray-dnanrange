@@ -50,7 +50,7 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
-import dnanrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrange@esm/index.mjs';
+import dnanrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrange@v0.1.1-esm/index.mjs';
 ```
 
 #### dnanrange( arrays )
@@ -102,7 +102,7 @@ import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@e
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@esm/index.mjs';
-import dnanrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrange@esm/index.mjs';
+import dnanrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrange@v0.1.1-esm/index.mjs';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
