@@ -52,7 +52,7 @@ The [**range**][range] is defined as the difference between the maximum and mini
 To use in Observable,
 
 ```javascript
-dnanrange = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrange@umd/browser.js' )
+dnanrange = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrange@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -64,7 +64,7 @@ var dnanrange = require( 'path/to/vendor/umd/stats-base-ndarray-dnanrange/index.
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrange@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrange@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -124,7 +124,7 @@ The function has the following parameters:
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrange@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dnanrange@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
