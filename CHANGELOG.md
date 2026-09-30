@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-22)
+## Unreleased (2026-09-30)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`0e5a7ac`](https://github.com/stdlib-js/stdlib/commit/0e5a7ac47fb187ec9930bb0e19cf90e32a7da0d5) - **docs:** update descriptions [(#15653)](https://github.com/stdlib-js/stdlib/pull/15653) _(by Philipp Burckhardt)_
 -   [`581a40b`](https://github.com/stdlib-js/stdlib/commit/581a40b3bc613672ed61d5e2b008c4461e7454ae) - **feat:** add C implementation for `stats/base/ndarray/dnanrange` [(#14470)](https://github.com/stdlib-js/stdlib/pull/14470) _(by Ujjwal Verma)_
 -   [`0f24d0d`](https://github.com/stdlib-js/stdlib/commit/0f24d0d9f742c471f083ad6c00df814e05053d12) - **docs:** update descriptions and comments [(#13451)](https://github.com/stdlib-js/stdlib/pull/13451) _(by Philipp Burckhardt)_
 -   [`46ec186`](https://github.com/stdlib-js/stdlib/commit/46ec186fcbd6df60f64a58f504b661a63bc5cd47) - **docs:** update description _(by Athan Reines)_
